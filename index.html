@@ -350,23 +350,35 @@
                 </button>
                 <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
                 <form class="modal-form">
+                    <label><span class="input-title">Имя</span> 
                     <input type="text"
                     minlength="4"
                     class="form-input" 
                     name="user-name" 
-                    placeholder="Имя"
                     required>
+                    </label>
+                    <label><span class="input-title">Телефон</span>
                     <input type="tel"
                     minlength="10"
                     maxlength="15"
                     class="form-input" 
-                    name="user-number" 
-                    placeholder="Телефон" required>
+                    name="user-number" required>
+                    </label>
+                    <label><span class="input-title">Почта</span>
                     <input type="email"
                     minlength="5"
                     class="form-input" 
-                    name="user-email" 
-                    placeholder="Почта" required>
+                    name="user-email" required>
+                    </label>
+                    <div class=""></div>
+                    <label for="user-comment" class="input-title">Комментарий</label>
+                    <textarea 
+                    name="user-comment" 
+                    id="user-comment" 
+                    class="modal-text"
+                    placeholder="Введите текст">
+                    </textarea>
+                </div>
                     <button type="submit">Отправить</button>
                 </form>
             </div>
