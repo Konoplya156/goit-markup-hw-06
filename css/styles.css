@@ -1180,6 +1180,7 @@ opacity: 0;
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--primery-white-color);
+
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1255,6 +1256,7 @@ opacity: 0;
 }
 
 .btn-submit {
+    color: #FFFFFF;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -1269,7 +1271,6 @@ opacity: 0;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    color: var(--primery-white-color);
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -1284,7 +1285,7 @@ opacity: 0;
 }
 
 .btn-submit::after {
-    background-image: url(../images/telegram.png);
+    background-image: url(../symbol-defs.svg#icon-icon-send);
     background-repeat: no-repeat;
     margin-left: 10px;
 }
