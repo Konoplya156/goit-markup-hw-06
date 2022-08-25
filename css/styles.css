@@ -1041,7 +1041,7 @@ opacity: 0;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    color: var(--title-text-color);
+    color: #757575;
     margin-bottom: 4px;
 }
 
@@ -1279,11 +1279,11 @@ opacity: 0;
     background-size: contain;
 }
 
-.btn-submit::after {
+ .btn-submit::after {
     background-image: url(../symbol-defs.svg#icon-icon-send);
     background-repeat: no-repeat;
     margin-left: 10px;
-}
+} 
 
 .btn-submit:hover {
     background: #188CE8;
@@ -1332,4 +1332,13 @@ opacity: 0;
 
 .modal-close:hover{
     fill: #2196F3;
+}
+
+
+
+
+.subscribe-icon{
+    margin-left: 10px;
+    align-self: center;
+    fill: white;
 }
