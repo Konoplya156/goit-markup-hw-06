@@ -1279,11 +1279,11 @@ opacity: 0;
     background-size: contain;
 }
 
- .btn-submit::after {
+ /* .btn-submit::after {
     background-image: url(../symbol-defs.svg#icon-icon-send);
     background-repeat: no-repeat;
     margin-left: 10px;
-} 
+}  */
 
 .btn-submit:hover {
     background: #188CE8;
