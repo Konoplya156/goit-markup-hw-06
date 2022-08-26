@@ -1157,10 +1157,18 @@ opacity: 0;
 .modal-check{
     width: 1px;
     height: 1px;
+    -webkit-perspective: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: absolut;
 }
 
 .modal-check:focus + .check-text .privacy-span {
     background-color: var(--accent-text-color);
+    border-color: #2196F3;
+}
+
+.modal-check:focus+.check-text .privacy-span {
     border-color: #2196F3;
 }
 
