@@ -1021,12 +1021,19 @@ opacity: 0;
 }
 
 .modal-close-btn {
-    background-color: var(--primery-white-color);
-    border: 1px solid var(--primery-white-color);
-    padding: 0;
     position: absolute;
-    top: 8px;
-    right: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 8px;
+        right: 8px;
+        width: 30px;
+        height: 30px;
+        color: var(--white);
+        background: var(--white);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        cursor: pointer;
 }
 
 .is-hidden {
@@ -1279,11 +1286,6 @@ opacity: 0;
     background-size: contain;
 }
 
- /* .btn-submit::after {
-    background-image: url(../symbol-defs.svg#icon-icon-send);
-    background-repeat: no-repeat;
-    margin-left: 10px;
-}  */
 
 .btn-submit:hover {
     background: #188CE8;
