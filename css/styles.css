@@ -699,6 +699,7 @@ ul {
     letter-spacing: 0.06em;
     background-color: #2196F3;
     padding: 10px 32px 10px 32px;
+    border-color: transparent;
 }
 
 
@@ -1174,6 +1175,12 @@ opacity: 0;
 .modal-check:focus+.check-text .privacy-span {
     border-color: #2196F3;
 }
+
+
+.modal-check:checked ~ .chek-icon{
+background-color: #2196F3;
+    border-color: #212121;
+fill: #2196F3;}
 
 
 .check-link {
